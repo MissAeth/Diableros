@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diableros - Un jeu de rôles au coeur des mystères mexicains</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background: url('https://example.com/comic-book-background.jpg') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            padding: 50px 0;
+            color: white;
+        }
+        .header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            margin-top: 0;
+            color: #E74C3C;
+        }
+        .bio, .contact {
+            text-align: center;
+        }
+        .bio p, .contact p {
+            max-width: 600px;
+            margin: auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery div {
+            flex: 1 1 calc(33.333% - 10px);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact form {
+            display: inline-block;
+            text-align: left;
+        }
+        .contact form input, .contact form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+        }
+        .contact form button {
+            padding: 10px 20px;
+            background: #E74C3C;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background: #C0392B;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Diableros</h1>
+        <p>Le Jeu de Rôle dans un Mexique contemporain</p>
+    </div>
+
+    <div class="container">
+        <div class="section bio">
+            <h2>À propos de moi</h2>
+            <p>Bonjour ! Je suis [Ton Nom], créateur de jeux de rôle et passionné par l'univers des comic books et du fantastique. Bienvenue sur ma page personnelle dédiée à mon dernier projet, Diableros.</p>
+        </div>
+
+        <div class="section project">
+            <h2>Diableros</h2>
+            <p>Diableros est un jeu de rôle immersif se déroulant dans un Mexique contemporain peuplé de créatures mythiques et de légendes. Plongez dans un monde où le surnaturel rencontre le quotidien, et où les héros doivent affronter des forces obscures pour protéger l'humanité.</p>
+        </div>
+
+        <div class="section gallery">
+            <h2>Galerie de Personnages</h2>
+            <div><img src="https://example.com/character1.jpg" alt="Personnage 1"></div>
+            <div><img src="https://example.com/character2.jpg" alt="Personnage 2"></div>
+            <div><img src="https://example.com/character3.jpg" alt="Personnage 3"></div>
+        </div>
+
+        <div class="section news">
+            <h2>Actualités et Événements</h2>
+            <p>Restez à l'écoute pour les dernières nouvelles et les prochains événements de Diableros. Les sessions de jeu en ligne, les mises à jour et bien plus encore seront annoncées ici.</p>
+        </div>
+
+        <div class="section contact">
+            <h2>Contact</h2>
+            <p>Pour toute question ou collaboration, n'hésitez pas à me contacter via le formulaire ci-dessous.</p>
+            <form>
+                <input type="text" name="name" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" placeholder="Votre message" rows="4" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
